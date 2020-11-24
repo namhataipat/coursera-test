@@ -30,9 +30,13 @@ header{
     height: ;  
     background-image: url('./res/1.jpg');
     background-repeat: ;
-    background-position: ;
+    background-position: center;
     background-size: ;
+    object-fit: scale-down;
     
+}
+h2,section{
+    text-align : center;
 }
 header nav{
     height: ;
@@ -46,13 +50,16 @@ header nav ul li{
     display:;
     padding:;
     font-family: Maven Pro ; 
+    float: left;
 }
 header nav ul li a,p{
     color: white;
     font-size: 20px;
+    margin-left: 20px;
 }
 #name-afterlogo {
     font-size: 30px;
+    padding-top: 20px;
 }
 #desc-after-logo {
     color: darkgrey;
@@ -66,6 +73,7 @@ header nav ul li a,p{
 .logo-img{
     width: 50px;
     height:50px;
+    padding-top: 20px;
 }
 
 header nav  .nav-bar{
@@ -116,26 +124,36 @@ main .title{
 
 }
 main .title h2{
-    font-size: ;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+
 }
 main .title section{
     padding-top: ;
     opacity: 0.8;
-    padding-bottom: ;
+    padding-bottom: 30px;
     margin-bottom: ;
     display: block;
     line-height: ;
+    text-align: center;
+
 }
+
 .button{
     margin:;
     width: ;
-    text-align: ;
+    text-align: center;
     font-size: 25px;
     padding:;
+    margin-right: 500px;
+    margin-left: 500px;
     color: white;
     background-color: rgba(51, 204, 204,1) ;
     border-radius: ;
     cursor:pointer;
+    display: block;
+
 }
 .button:hover{
     background-color: #1f7a7a ;
@@ -251,6 +269,7 @@ main .gallery h2{
 .wrapper {
     align-self: center;
     margin:;
+    text-align: center;
 }
 .colomn-one-third div img{
     border-radius: ;
@@ -272,11 +291,14 @@ footer ul{
     float:;
     padding-left: ;
     color: white;
+    padding: 30px;
 }
 footer ul li {
     line-height:;
     font-size: 15px;
     font-family: maven pro;
     color:white;
+    padding-top: 20px;
+    padding-left: 50px;
 
 }
