@@ -1,0 +1,282 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+
+/* MY CODE */
+*{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    height: ;  
+    background-image: url('./res/1.jpg');
+    background-repeat: ;
+    background-position: ;
+    background-size: ;
+    
+}
+header nav{
+    height: ;
+
+}
+header nav ul{
+    display: ;
+}
+header nav ul li{
+    color: grey;
+    display:;
+    padding:;
+    font-family: Maven Pro ; 
+}
+header nav ul li a,p{
+    color: white;
+    font-size: 20px;
+}
+#name-afterlogo {
+    font-size: 30px;
+}
+#desc-after-logo {
+    color: darkgrey;
+    
+}
+.nav-btn:hover{
+    opacity: 0.8;
+    transition:0.3s ease; 
+}
+
+.logo-img{
+    width: 50px;
+    height:50px;
+}
+
+header nav  .nav-bar{
+    width:fit-content;
+    float: right;
+    margin-right: 30px;
+    line-height: 50px;
+    padding-top: 10px;
+
+
+}
+header nav  .logo-nav {
+    width:fit-content;
+
+}
+.head div{
+    padding-top: 400px;
+    text-align: center;
+    line-height: 50px;
+}
+
+section div h1{
+    color: white;
+    font-family: maven pro;
+    font-size: 40px;
+}
+
+section div p{
+    color: white;
+    font-family: maven pro;
+    font-size: 16px;
+
+}
+
+
+/*Main*/
+
+main{
+    height: fit-content;
+    background-color: white;
+    margin:;
+    display: block;
+}
+main .title{
+    padding:;
+    text-align: ;
+    font-family: maven pro;
+
+}
+main .title h2{
+    font-size: ;
+}
+main .title section{
+    padding-top: ;
+    opacity: 0.8;
+    padding-bottom: ;
+    margin-bottom: ;
+    display: block;
+    line-height: ;
+}
+.button{
+    margin:;
+    width: ;
+    text-align: ;
+    font-size: 25px;
+    padding:;
+    color: white;
+    background-color: rgba(51, 204, 204,1) ;
+    border-radius: ;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: #1f7a7a ;
+    cursor:pointer;
+    transition:0.4s ease; 
+}
+.button-transparent{
+    margin:;
+    width: ;
+    text-align: ;
+    font-size: ;
+    padding:;
+    color: darkgrey;
+    background-color: rgba(51, 204, 204,0) ;
+    border:1px solid grey;
+    border-radius: ;
+    cursor:pointer;
+}
+.button-transparent:hover{
+    background-color: rgba(51, 204, 204,1) ;
+    cursor:pointer;
+    color: white;
+    border:1px solid rgba(51, 204, 204,1);
+    transition:0.4s ease; 
+}
+
+main .gallery{
+    padding:;
+    text-align: ;
+    font-family: maven pro;
+
+}
+main .gallery h2{
+    font-size: 32px;
+}
+.gallery .menu{
+    padding-top: ;
+    font-size: 15px;
+    opacity:;
+    padding-bottom: ;
+}
+.photo{
+    display: block;
+}
+
+.title .testimonial{
+    column-count: 3;
+    padding-bottom: ;
+    display: flex;
+}
+.title .testimonial p {
+    color: black;
+    text-align: left;
+
+}
+.title .testimonial div{
+    padding-left: ;
+    padding-right: ;
+    width:fit-content;
+    align-items: flex-start;
+}
+.title .testimonial a{
+   float:;
+}
+.call-to-action {
+    padding:0px;
+}
+
+.call-to-action p{
+    color: black;
+    font-size: ;
+    padding:;
+    text-align: center;
+    font-family: maven pro;
+}
+
+
+
+
+
+
+.colomn-one-third{
+    width:;
+    height:426px;
+    padding:;
+    display: inline-block;
+}
+.link-title-div{
+    padding:;
+}
+.link-title{
+    font-size: 24px;
+    font-family: maven pro;
+    font-weight: 600;
+    color: black;   
+    
+}
+.p-div{
+    padding-bottom: ;
+}
+.colomn-one-third div p {
+    color: black;
+    margin:;
+    font-size: 17px;
+    font-family: maven pro;
+    line-height: 34px;
+}
+.con-reading {
+    font-size: 17px;
+    font-family: maven pro;
+    color: #1f7a7a;
+}
+.wrapper {
+    align-self: center;
+    margin:;
+}
+.colomn-one-third div img{
+    border-radius: ;
+}
+
+footer{
+    width: calc(100% - 80px);
+    height: fit-content;
+    padding:;
+    margin-top:;
+    background-color: rgb(75, 73, 73);
+    overflow:;
+}
+.wrap-footer{
+    margin-left: ;
+}
+footer ul{
+    width: ;
+    float:;
+    padding-left: ;
+    color: white;
+}
+footer ul li {
+    line-height:;
+    font-size: 15px;
+    font-family: maven pro;
+    color:white;
+
+}
