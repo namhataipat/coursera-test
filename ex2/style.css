@@ -126,7 +126,7 @@ main .title{
 main .title h2{
     font-size: 1.5em;
     text-align: center;
-    padding: 20px 100px 20px 100px;
+    padding:50px 100px 20px 100px;
 
 }
 main .title section{
@@ -137,22 +137,26 @@ main .title section{
     display: block;
     line-height: ;
     text-align: center;
+    margin-left: 150px;
+    margin-right:150px;
 
 }
 
 .button{
     margin:;
-    width: ;
+    width: 200px;
     text-align: center;
     font-size: 25px;
     padding:;
-    margin-right: 500px;
-    margin-left: 500px;
+    margin-right: 50px;
+    margin-left:calc(50% - 100px);
+    margin-bottom: 150px;
     color: white;
     background-color: rgba(51, 204, 204,1) ;
     border-radius: ;
     cursor:pointer;
     display: block;
+    box-sizing: content-box;
 
 }
 .button:hover{
@@ -190,10 +194,10 @@ main .gallery h2{
     font-size: 32px;
 }
 .gallery .menu{
-    padding-top: ;
+    padding-top: 30px;
     font-size: 15px;
     opacity:;
-    padding-bottom: ;
+    padding-bottom: 30px ;
 }
 .photo{
     display: block;
@@ -220,29 +224,27 @@ main .gallery h2{
 }
 .call-to-action {
     padding:0px;
+    text-align: left;
 }
 
 .call-to-action p{
     color: black;
     font-size: ;
-    padding:;
+    padding: 20px;
     text-align: center;
     font-family: maven pro;
 }
 
 
-
-
-
-
 .colomn-one-third{
-    width:;
+    width: 33.33%;
     height:426px;
-    padding:;
+    padding: 10px;
+    float: left; 
     display: inline-block;
 }
 .link-title-div{
-    padding:;
+    padding: 20px;
 }
 .link-title{
     font-size: 24px;
@@ -252,12 +254,13 @@ main .gallery h2{
     
 }
 .p-div{
-    padding-bottom: ;
+    padding-bottom: 20px;
 }
 .colomn-one-third div p {
     color: black;
-    margin:;
+    margin: 0, 30%,0,30%;
     font-size: 17px;
+    float: left;
     font-family: maven pro;
     line-height: 34px;
 }
@@ -267,9 +270,9 @@ main .gallery h2{
     color: #1f7a7a;
 }
 .wrapper {
-    align-self: center;
+    align-self: left;
     margin:;
-    text-align: center;
+    text-align: left;
 }
 .colomn-one-third div img{
     border-radius: ;
@@ -282,6 +285,7 @@ footer{
     margin-top:;
     background-color: rgb(75, 73, 73);
     overflow:;
+    float: right ;
 }
 .wrap-footer{
     margin-left: ;
