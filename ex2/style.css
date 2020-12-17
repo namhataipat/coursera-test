@@ -143,20 +143,14 @@ main .title section{
 }
 
 .button{
-    margin:;
-    width: 200px;
+    margin: 10px;
     text-align: center;
     font-size: 25px;
-    padding:;
-    margin-right: 50px;
-    margin-left:calc(50% - 100px);
-    margin-bottom: 150px;
+    padding:10px;
     color: white;
     background-color: rgba(51, 204, 204,1) ;
-    border-radius: ;
+    border-radius: 5px;
     cursor:pointer;
-    display: block;
-    box-sizing: content-box;
 
 }
 .button:hover{
@@ -165,15 +159,15 @@ main .title section{
     transition:0.4s ease; 
 }
 .button-transparent{
-    margin:;
+    margin: 10px;
     width: ;
-    text-align: ;
-    font-size: ;
-    padding:;
+    text-align: center;
+    font-size: 25px;
+    padding:10px;
     color: darkgrey;
     background-color: rgba(51, 204, 204,0) ;
     border:1px solid grey;
-    border-radius: ;
+    border-radius: 5px ;
     cursor:pointer;
 }
 .button-transparent:hover{
@@ -185,8 +179,8 @@ main .title section{
 }
 
 main .gallery{
-    padding:;
-    text-align: ;
+    padding: 150px;
+    text-align: center;
     font-family: maven pro;
 
 }
@@ -205,12 +199,16 @@ main .gallery h2{
 
 .title .testimonial{
     column-count: 3;
+    padding-top: 20px;
     padding-bottom: ;
     display: flex;
+    column-gap: 60px;
+    text-align: center;
 }
 .title .testimonial p {
     color: black;
     text-align: left;
+    line-height: 30px;
 
 }
 .title .testimonial div{
@@ -220,31 +218,32 @@ main .gallery h2{
     align-items: flex-start;
 }
 .title .testimonial a{
-   float:;
+   float: left;
 }
 .call-to-action {
-    padding:0px;
-    text-align: left;
+    padding:20px;
+    
 }
 
 .call-to-action p{
     color: black;
     font-size: ;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     font-family: maven pro;
+    overflow: auto;
 }
 
 
 .colomn-one-third{
-    width: 33.33%;
+    width: ;
     height:426px;
     padding: 10px;
     float: left; 
     display: inline-block;
 }
 .link-title-div{
-    padding: 20px;
+    margin-top : 15px;
 }
 .link-title{
     font-size: 24px;
@@ -260,7 +259,6 @@ main .gallery h2{
     color: black;
     margin: 0, 30%,0,30%;
     font-size: 17px;
-    float: left;
     font-family: maven pro;
     line-height: 34px;
 }
@@ -270,7 +268,9 @@ main .gallery h2{
     color: #1f7a7a;
 }
 .wrapper {
-    align-self: left;
+    align-self: center;
+    column-count :3;
+    column-gap: 50px;
     margin:;
     text-align: left;
 }
@@ -285,24 +285,24 @@ footer{
     margin-top:;
     background-color: rgb(75, 73, 73);
     overflow:;
-    float: right ;
 }
 .wrap-footer{
-    margin-left: ;
+    margin-left: 140px ;
+    padding-top: 40px;
+    padding-bottom : 40px;
 }
 footer ul{
     width: ;
     float:;
     padding-left: ;
     color: white;
-    padding: 30px;
+
 }
 footer ul li {
-    line-height:;
+    line-height: 40px;
     font-size: 15px;
     font-family: maven pro;
     color:white;
-    padding-top: 20px;
-    padding-left: 50px;
+
 
 }
