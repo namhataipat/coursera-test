@@ -1,0 +1,297 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    height: 100%;  
+    background-image: url('./res/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+header nav{
+    height: 100px;
+
+}
+header nav ul{
+    display: inline-block;
+}
+header nav ul li{
+    display:inline-block;
+    padding:20px;
+    font-family: Maven Pro ; 
+}
+header nav ul li a,p{
+    color: white;
+}
+#name-afterlogo {
+    font-size: 30px;
+}
+#desc-after-logo {
+    color: darkgrey;
+    
+}
+.hover-nav:hover{
+    opacity: 0.8;
+    transition:0.3s ease; 
+}
+
+.logo-img{
+    width: 50px;
+    height:50px;
+}
+
+header nav  .nav-bar{
+    width:fit-content;
+    float: right;
+    margin-right: 30px;
+    line-height: 50px;
+    padding-top: 10px;
+
+
+}
+header nav  .logo-nav {
+    width:fit-content;
+
+}
+.head div{
+    padding-top: 400px;
+    text-align: center;
+    line-height: 50px;
+}
+.head p{
+   color: whitesmoke;
+}
+section div h1{
+    color: white;
+    font-family: maven pro;
+    font-size: 40px;
+}
+
+section div p{
+    color: lightgrey;
+    font-family: maven pro;
+    font-size: 16px;
+
+}
+
+
+/*Main*/
+
+main{
+    height: fit-content;
+    background-color: white;
+    margin:0px 122px;
+    display: block;
+}
+main .title{
+    padding:80px 60px;
+    text-align: center;
+    font-family: maven pro;
+
+}
+main .title h2{
+    font-size: 32px;
+}
+main .title section{
+    padding-top: 20px;
+    opacity: 0.8;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 30px;
+}
+.button{
+    margin:50px 5px;
+    width: fit-content;
+    text-align: center;
+    font-size: 25px;
+    padding:10px 20px;
+    color: white;
+    background-color: rgba(51, 204, 204,1) ;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: #1f7a7a ;
+    cursor:pointer;
+    transition:0.4s ease; 
+}
+.button-transparent{
+    margin:50px 5px;
+    width: fit-content;
+    text-align: center;
+    font-size: 25px;
+    padding:10px 20px;
+    color: darkgrey;
+    background-color: rgba(51, 204, 204,0) ;
+    border:1px solid grey;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.button-transparent:hover{
+    background-color: rgba(51, 204, 204,1) ;
+    cursor:pointer;
+    color: white;
+    border:1px solid rgba(51, 204, 204,1);
+    transition:0.4s ease; 
+}
+
+main .gallery{
+    padding:80px 0px;
+    text-align: center;
+    font-family: maven pro;
+
+}
+main .gallery h2{
+    font-size: 32px;
+}
+.gallery .menu{
+    padding-top: 30px;
+    font-size: 15px;
+    opacity:0.7;
+    padding-bottom: 50px;
+}
+.photo{
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin:0px auto ;
+}
+
+.title .testimonial{
+    column-count: 3;
+    padding-bottom: 50px;
+    display: flex;
+}
+.title .testimonial p {
+    color: black;
+    text-align: left;
+
+}
+.title .testimonial div{
+    padding-left: 10px;
+    padding-right: 10px;
+    width:fit-content;
+    align-items: flex-start;
+}
+.title .testimonial a{
+   float:left;
+}
+.call-to-action {
+    padding:0px;
+}
+
+.call-to-action p{
+    color: black;
+    font-size: 20px;
+    padding:40px 60px;
+    text-align: center;
+    font-family: maven pro;
+}
+
+
+
+
+
+
+.colomn-one-third{
+    width:353.33px;
+    height:426px;
+    padding:40px 0 0 40px;
+    display: inline-block;
+}
+.link-title-div{
+    padding:28px 0px;
+}
+.link-title{
+    font-size: 24px;
+    font-family: maven pro;
+    font-weight: 600;
+    color: black;   
+    
+}
+.p-div{
+    padding-bottom: 10px;
+}
+.colomn-one-third div p {
+    color: black;
+    margin:0 0 10px 0;
+    font-size: 17px;
+    font-family: maven pro;
+    line-height: 34px;
+}
+.con-reading {
+    font-size: 17px;
+    font-family: maven pro;
+    color: #1f7a7a;
+}
+.wrapper {
+    align-self: center;
+    margin:0 0 90px auto;
+}
+.colomn-one-third div img{
+    border-radius: 4px;
+}
+
+
+/* Footer */
+
+footer{
+    width: calc(100% - 80px);
+    height: 300px;
+    padding:40px 40px;
+    margin-top:20px;
+    background-color: #111;
+    overflow:hidden;
+}
+footer ul{
+    width: fit-content;
+    float:left;
+    padding-left: 20px;
+    color: white;
+}
+footer ul li {
+    line-height:40px;
+    font-size: 20px;
+    font-family: maven pro;
+    color:white;
+
+}
