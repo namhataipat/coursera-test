@@ -62,9 +62,15 @@ header nav ul li a,p{
 }
 #name-afterlogo {
     font-size: 30px;
+    position: absolute;
+    left: 100px ; 
+    top: 20px;
 }
 #desc-after-logo {
     color: darkgrey;
+    position: absolute;
+    left: 100px ; 
+    top: 60px;
     
 }
 .hover-nav:hover{
@@ -146,7 +152,7 @@ main .title section{
     color: white;
     background-color: rgba(51, 204, 204,1) ;
     border-radius: 5px;
-    cursor:pointer;
+    cursor:pointer;                                                    
 }
 .button:hover{
     background-color: #1f7a7a ;
@@ -163,7 +169,7 @@ main .title section{
     background-color: rgba(51, 204, 204,0) ;
     border:1px solid grey;
     border-radius: 5px;
-    cursor:pointer;
+    cursor:pointer;     
 }
 .button-transparent:hover{
     background-color: rgba(51, 204, 204,1) ;
