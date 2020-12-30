@@ -33,7 +33,6 @@ input, select {
     vertical-align:middle;
 }
 
-
 *{
     text-decoration: none;
     list-style: none;
@@ -111,6 +110,7 @@ section div p{
     font-size: 16px;
 
 }
+
 
 /*Main*/
 
@@ -226,6 +226,10 @@ main .gallery h2{
     font-family: maven pro;
 }
 
+#portfolio-title{
+    text-align: center;
+}
+
 
 
 
@@ -270,10 +274,6 @@ main .gallery h2{
     border-radius: 4px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    
-
-}
 
 /* Footer */
 
