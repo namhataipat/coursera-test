@@ -32,6 +32,7 @@
 	height: 60px;
 	margin: 10px 20px;
 	font-size: 30px;
+	text-decoration-style: #AAAAAA;
 }
 #input{
 	margin: 5px;
@@ -52,16 +53,16 @@ button{
 	border-style: none;
 }
 
-#divide{
+button:nth-child(4){
 	background-color: #F8DE7E;
 }
-#multiply{
+button:nth-child(8){
 	background-color: #D0F0C0;
 }
-#subtract{
+button:nth-child(12){
 	background-color: #FFCCCB;
 }
-#plus{
+button:nth-child(16){
 	background-color: #ADD8E6;
 }
 #del{
