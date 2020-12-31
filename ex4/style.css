@@ -1,13 +1,13 @@
 #container{
 	width: 1000px;
 	height: 550px;
-	background-color: #AAAAAA;
+	background-color: #F1F1F1;
 	margin: 20px auto;	
 }
 #calculator{
 	width: 320px;
 	height: 520px;
-	background-color: #AAAAAA;
+	background-color: #F1F1F1;
 	margin: 0 auto;
 	top: 20px;
 	position: relative;
@@ -21,18 +21,22 @@
 }
 #history{
 	text-align: right;
-	height: 20px;
-	margin: 0 20px;
-	padding-top: 20px;
 	font-size: 15px;
 	color: #919191;
+	position: absolute;
+	width: 320px;
+	height: 40px;
+	margin-top: 20px;
+	background: #F1F1F1;
 }
 #result{
 	text-align: right;
-	height: 60px;
-	margin: 10px 20px;
+	margin-top: 60px;
 	font-size: 30px;
-	text-decoration-style: #AAAAAA;
+	position: absolute;
+	background: #F1F1F1;
+	width: 320px;
+	height: 60px;
 }
 #input{
 	margin: 5px;
@@ -54,16 +58,16 @@ button{
 }
 
 button:nth-child(4){
-	background-color: #F8DE7E;
+	background-color: #F9E2A6;
 }
 button:nth-child(8){
-	background-color: #D0F0C0;
+	background-color: #CCFCC5;
 }
 button:nth-child(12){
-	background-color: #FFCCCB;
+	background-color: #FFC9C9;
 }
 button:nth-child(16){
-	background-color: #ADD8E6;
+	background-color: #B6DAFB;
 }
 #del{
 	background-color: #FC6A03;
