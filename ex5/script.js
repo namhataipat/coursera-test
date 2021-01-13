@@ -44,6 +44,20 @@ var insertProperty = function (string, propName, propValue) {
   return string;
 }
 
+var switchMenuToActive = function () {
+
+	var classes = document.querySelector("#nav-item").className;
+	classes = classes.replace(new RegExp("active", "g"),"");
+	document.querySelector("#nav-item").className = classes;
+
+
+	classes= document.querySelector("#nav-item").className;
+	if (classes.indexOf("active") ==-1){
+		classes += "active";
+		document.querySelector("#nav-item").className = classes;
+	}
+};
+
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
 
