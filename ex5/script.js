@@ -64,13 +64,32 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // On first load, show home view
 showLoading("#main-content");
 $.get(
-  homeHtml,
-  function (responseText) {
-    document.querySelector("#main-content")
-      .innerHTML = responseText;
-  },
-  false);
+  allCategoriesUrl,
+  buildAndShowHomeHTML);
 });
+
+function buildAndShowHomeHTML (categories) {
+  $.get(
+    homeHtml,
+    function(homeHtml){
+        var chosenCat = chooseRandomCategory(categories);
+        var chosenCategoryShortName = chosenCat.short_name;
+        //chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
+
+        var homeHtmltoInsertIntoMainPage = insertProperty(homeHtml,"randomCategoryShortName", chosenCategoryShortName);
+
+        insertHtml("#main-content",homeHtmltoInsertIntoMainPage);
+
+
+    },false);
+}
+
+function chooseRandomCategory (categories) {
+  // Choose a random index into the array (from 0 inclusively until array length (exclusively))
+  var randomArrayIndex = Math.floor(Math.random() * categories.length);
+  // return category object with that randomArrayIndex
+  return categories[randomArrayIndex];
+}
 
 // Load the menu categories view
 dc.loadMenuCategories = function () {
